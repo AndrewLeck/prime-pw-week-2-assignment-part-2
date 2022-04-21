@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Make a veriable and set its value to 'Dane'
+// Then we check to see if the 'Dane' = 'Mary' (it does not) so it will not console.log('Hi Mary')
+// Then we move to the next line of code, the else statement, and because 'Dane' does not = 'Mary' it will console.log('How do you do?');
 //
 
 //CODE
