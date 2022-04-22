@@ -143,7 +143,6 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
-
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -152,6 +151,7 @@ if (mix === true) {
 
 /*
 let temp = 40;
+//FIX let time = 4;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
@@ -166,6 +166,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+// FIX if (minAge <= age){
+  console.log('enter');
+}
 
 if(minAge <= age) {
   console.log('no entry');
