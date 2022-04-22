@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Create a vaiable called "secret"
+// Creat a variable called "code" and set its value to "123"
+// Creat a conditional if statement were console.log ('secret') outputs 'super'
 //
 
 //CODE
@@ -56,13 +56,13 @@ let secret;
 
 let code = 123;
 
-if(code === 123) {
-  secret = 'super';
-  code = code * 2;
+if(code === 123) { // if 123===123 than
+  secret = 'super';// secret = super
+  code = code * 2; // 123= 123 * 2, 123 = 246
 }
 
-if (code > 250) {
-  secret = 'duper'
+if (code > 250) { // if 246 > 250, (false)
+  secret = 'duper' // than secret = duper
 }
 
 console.log(secret)
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called "isStudent" set its value to true
+// Create a number variable called "age" set its value to 34
+// Create a number variable called "zip" set its value to 55407
+// Create a compound conditional  where the console.log('welcome to Prime!')
 
 //CODE
 /*
@@ -81,11 +81,11 @@ let isStudent = true;
 let age = 34;
 let zip = 55407;
 
-if (isStudent === true && zip > 80000 ) {
+if (isStudent === true && zip > 80000 ) { // both must be true, and 55407 is not greater than 80000, move to next line
   console.log(`You're a student on the West Coast!`);
-} else if (isStudent === false || age < 30) {
+} else if (isStudent === false || age < 30) { // one of these must be true, isStudent is not false and age is not less than 30. Next line
   console.log('What are your hobbies?');
-} else if (isStudent === true) {
+} else if (isStudent === true) { // isStudent === true. this line will log
   console.log('Welcome to Prime!');
 } else {
   console.log('How about the weather?')
@@ -130,13 +130,20 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//FIX let colorOne = 'blue'// not red.
 let colorOne = 'red';
-let colorTwo = 'blue';
-let mix = true;
 
+//FIX let colorTwo = 'red';
+let colorTwo = 'blue';
+
+let mix = true;
+//FIX You can write it as if(mix){ // We already know mix = true.
+  colorOne + colorTwo = 'purple'; // colorOne + colorTwo = purple because we mixed the two. 
+}
 if (mix === true) {
   colorOne = 'purple';
 }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
