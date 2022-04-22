@@ -165,6 +165,7 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
+//FIX let minAge = 21;
 const minAge = 21;
 // FIX if (minAge <= age){
   console.log('enter');
