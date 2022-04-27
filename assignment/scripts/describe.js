@@ -144,6 +144,7 @@ let mix = true;
 }
 if (mix === true) {
   colorOne = 'purple';
+  //FIX  colorTwo = 'purple';
 }
 */
 
