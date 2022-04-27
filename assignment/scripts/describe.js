@@ -157,6 +157,9 @@ let temp = 40;
 //FIX let time = 4;
 const time = 4;
 
+//Fix if( temp > 39 && time >= 4){
+    console.log('throw away the food!');
+}
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
