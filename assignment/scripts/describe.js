@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// Create a vaiable called "secret"
-// Creat a variable called "code" and set its value to "123"
-// Creat a conditional if statement were console.log ('secret') outputs 'super'
-//
+// Create a variable called "secret"
+// Create a variable called "code" and set its value to "123"
+// Create a conditional if statement to check if code equals 123.(it does).
+// We then change the value of secret to 'super' and code to 'code * 2'
+// We then create another conditonal statment to check if 'code' is greter than 250. (its not).
+// lastly we console.log('secret') and it out puts 'super'.
 
 //CODE
 /*
@@ -58,7 +60,7 @@ let code = 123;
 
 if(code === 123) { // if 123===123 than
   secret = 'super';// secret = super
-  code = code * 2; // 123= 123 * 2, 123 = 246
+  code = code * 2; // 123 = 123 * 2, 123 = 246
 }
 
 if (code > 250) { // if 246 > 250, (false)
